@@ -1,0 +1,96 @@
+.HomePage{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.VideoBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+  
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.Overall{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    gap:1rem;
+    padding-top: 10%;
+}
+
+.textbox{
+    background-color: rgb(112, 112, 112, 0.7); 
+    box-shadow: #2d2d2d 5px 5px 10px;
+    padding: 1rem; 
+    border-radius: 10px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    margin-left: 0.5%;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    color: black;
+}
+
+.Container{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    gap:1rem;
+    padding-left: 5rem;
+    position: relative;
+
+}
+
+.Paragraph{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -5px;
+    padding-left: 1rem;
+    color: black;
+}
+
+.Button{
+    text-decoration: none;
+    color: #ffffff;
+    width: 15%;
+    background-color: rgb(0, 0, 0);   
+    padding: 15px;
+    font: 1em sans-serif;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    margin-left: 15px;
+}
+
+.Button:hover {
+    color: #fff; 
+    border: 3px solid white;
+}
