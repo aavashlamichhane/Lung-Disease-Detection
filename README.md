@@ -12,7 +12,7 @@
 
 ### Step 2: Open three terminal instances.
 
-### Step 3: In one of them navigate inside tbase directory of the Django-server (folder where manage.py is located) and run:
+### Step 3: In one of them navigate inside the base directory of the Django-server (folder where manage.py is located) and run:
 
 `py manage.py runserver`
 
